@@ -2,7 +2,6 @@
 DESTINATION=$1
 PORT=$2
 CHAT=$3
-cd /opt
        
 # Clone Odoo directory
 git clone --depth=1 https://github.com/waelhym/odoo-18-docker_compose $DESTINATION
